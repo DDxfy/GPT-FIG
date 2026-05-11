@@ -13,7 +13,7 @@ CloudVoid AI Box
 
 ## apk位置
 V1.1.4版本，apk 安装包
-在https://github.com/DDxfy/GPT-FIG/apk里面
+在https://github.com/DDxfy/GPT-FIG/apk
 
 --------------------------------------------------------------
 最好是使用GPT的模型，因为开发者为在校大学生，没太多时间做更多适配
@@ -26,22 +26,28 @@ V1.1.4版本，apk 安装包
 - 直接调用 OpenAI Responses API
 - 手机端交互优先
 
+反馈邮箱：3050172393@qq.com
 
 CloudVoid AI Box
 BYOK AI Shell Android
+
 How to Run
 In Android Studio, go to File > Open
 Select the path: C:\Users\30501\Desktop\GTP-FIG\android-app
 Wait for Gradle Sync to complete
 Connect your Android phone and enable USB Debugging
 Select the device and click Run directly
+
 APK Location
 APK installer for version V1.1.4Available at: https://github.com/DDxfy/GPT-FIG/apk
-It is highly recommended to use GPT-series models.As the developer is a college student with limited spare time for extensive adaptation work,GPT models are currently the top recommended option.AI models from other vendors are also usable, but the overall response quality may be affected.
+
+It is highly recommended to use GPT-series models.As the developer is a college student with limited spare time for extensive adaptation work,
+GPT models are currently the top recommended option.AI models from other vendors are also usable, but the overall response quality may be affected.
+
 Features
 Locally save chat sessions and app settings
 Secure storage for API Keys via Android encrypted storage
 Directly call the OpenAI Responses API
 Mobile-first interactive experience
 
-
+Email:3050172393@qq.com
