@@ -31,21 +31,19 @@ BYOK AI Shell Android 是一个手机优先的 Android AI 聊天客户端，采�
 该仓库中的 `android-app/` 是独立 Android 工程,目前版本V1.1.4，可直接使用 Android Studio 打开、同步 Gradle 后运行。
 
 开发者为一位在校大学生，故有时更新不及时，有问题可反馈3050172393@qq.com
-
-
-----------------------------------------------------------------------------------------------------------------------
-
+-----------------------------------------------------------------------------------------------------------------
 BYOK AI Shell Android
-BYOK AI Shell Android is a mobile-first Android AI chat client built with Kotlin + Jetpack Compose. It allows users to configure their own API keys, model names and API endpoints locally, supporting direct calls to the OpenAI Responses API or compatible Chat Completions interfaces.
-Core Features
-Locally store chat conversations, model configurations and usage records
-Secure storage of API keys via Android EncryptedSharedPreferences
-Customizable models, endpoints, inference intensity and generation parameters
-Multi-session management: pin, rename, delete and branch chat sessions
-Support for reading text attachments and sending them with messages
-Light / Dark theme mode available
-Track request count, token consumption and response latency
-Enforce HTTPS-only API access to prevent unencrypted plaintext requests
+BYOK AI Shell Android is a mobile-first Android AI chat clientbuilt with Kotlin + Jetpack Compose.
+The app allows users to configure their own API Key, model nameand endpoint URL locally, enabling direct calls to theOpenAI Responses API or compatible Chat Completions interfaces.
+Features
+Locally save chat sessions, model configurations and usage records
+Securely store API Keys with Android EncryptedSharedPreferences
+Support custom models, endpoints, inference strength and generation parameters
+Multi-session management: pin, rename, delete and branch sessions
+Read text attachments and send them along with messages
+Light / Dark theme support
+Record request count, token usage and response time
+Enforce HTTPS only to avoid plaintext network requests
 Tech Stack
 Kotlin
 Jetpack Compose
@@ -55,5 +53,7 @@ OkHttp
 AndroidX Security Crypto
 Gradle Kotlin DSL
 Project Structure
-The android-app/ directory in this repository is a standalone Android project (current version: V1.1.4). You can directly open it with Android Studio, sync Gradle, and run the project.
-The developer is a college student, so project updates may be delayed occasionally. For any issues or feedback, please contact: 3050172393@qq.com
+The android-app/ folder in the repository is a standalone Android project.Current version: V1.1.4.
+You can open it directly in Android Studio, sync Gradle,then build and run the app.
+The developer is an undergraduate student,so official updates may be delayed from time to time.
+For issues and feedback, please contact:3050172393@qq.com
